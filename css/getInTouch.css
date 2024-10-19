@@ -1,9 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
+body {
+    height: 1400px;
+}
 footer {
-    height: 337px;
+    position: relative; 
+    width: 1900px;
+    bottom: -1067px;
+    height: 427px;
 
+}
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    width: 180px;
+    height: 60px;
+}
+#logo u {
+    position: relative;
+    top: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 10px;
+}
+#UnderLogo{
+    position: absolute;
+    top: 170px;
+    left: 225px;
+    width: 287px;
+    height: 54px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#SocialMedia {
+    position: absolute;
+    top: 250px;
+    left: 210px;
+    width: 170px;
+    height: 40px;
+    padding-left: 15px;
+}
+#nav {
+    position: absolute;
+    top: 120px;
+    left: 750px;
+    width: 105px;
+    height: 160px;
+}
+#nav a{
+    color: black;
+}
+
+
+.HeadlineNav{
+
+    color: #3EC5FA;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+#QuickLinks {
+    position: absolute;
+    top: 120px;
+    left: 1050px;
+    width: 130px;
+    height: 160px;
+}
+#QuickLinks a {
+    color: black;
+}
+#Contact {
+    position: absolute;
+    top: 120px;
+    left: 1350px;
+}
+.TextFooter{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+#ContactInfo {
+    position: absolute;
+    top: 175px;
+    left: 1350px;
+}
+#ContactInfo a {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    width: 230px;
+    color: black;
+}
+#adress {
+    position: absolute;
+    top: 270px;
+    left: 1398px;
+    color: black;
+}
+#forAdress {
+    position: absolute;
+    top: 270px;
+    left: 1350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#copyright {
+    position: relative;
+    top: 365px;
+    height: 63px;
+    background-color: #3EC5FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copyright p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
 }
