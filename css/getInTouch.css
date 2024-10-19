@@ -5,6 +5,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+body {
+  height: 1400px;
+}
 #header {
     width: 100%;
     height: 76px;
@@ -30,64 +33,26 @@
     align-items: center;
     width: 120px;
   }
-  
-  /* Адаптив хедера под телефоны */
-  @media (max-width: 768px) {
-    #header {
-      height: 60px;
-      padding: 0 10px;
-    }
-  
-    #header-text {
-      font-size: 14px;
-      top: 0;
-      left: 0;
-    }
-  
-    #header-icons {
-      width: 100px;
-    }
-  
-    #header-icons img {
-      width: 20px;
-      height: 20px;
-    }
-  }
-  
   #welcome {
     width: 100%;
     height: 900px;
     position: relative;
     overflow: hidden;
-  }
-  
+  } 
   #welcome img {
     position: absolute;
     bottom: 0;
   }
-  
   #CloudRight {
     left: 0;
     width: 40%;
     max-width: 400px;
   }
-  
   #CloudLeft {
     right: 0;
     width: 40%;
     max-width: 400px; 
   }
-  
-  @media screen and (max-width: 768px) {
-    #CloudRight, #CloudLeft {
-      width: 60%; 
-    }
-    
-    #welcome {
-      height: 600px;
-    }
-  }
-  
   #welcome-navbar {
     position: relative;
     width: 100%;
@@ -154,47 +119,164 @@
     justify-content: center;
   }
   
-  /* Адаптив navbar под телефоны */
-  @media (max-width: 768px) {
-    #welcome-navbar {
-      padding: 0 20px;
-      flex-direction: column;
-      height: auto;
-    }
-  
-    #welcome-navbar-logo {
-      justify-content: center;
-      margin-bottom: 20px;
-    }
-  
-    #welcome-navbar-logo h1 {
-      font-size: 24px;
-    }
-  
-    #welcome-navbar-links {
-      flex-direction: column;
-      width: 100%;
-      height: auto;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    #welcome-navbar-links a {
-      font-size: 18px;
-      margin: 10px 0;
-      display: block; 
-      text-align: center; 
-    }
-  
-    #welcome-navbar-request {
-      width: 100%;
-      height: 60px;
-      font-size: 18px;
-      border-radius: 10px;
-    }
-  }
-body {
-    height: 1400px;
+#Registration {
+  display: grid;
+  justify-content: center;
+  width: 560px;
+  height: 600px;
+  background-color: #3EC5FA;
+  border-radius: 10px ;
+  position: relative;
+  top: 30px;
+  left: 1250px;
+}
+.textReg{
+  color: #fbfffe;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 20px;
+}
+#NameInput{
+  position: relative;
+  top: 60px;
+  height: 70px;
+  width: 353px;
+}
+#NameInput input, #email input{
+  padding-left: 20px;
+  border-radius: 10px;
+  height: 46px;
+  width: 353px;
+  border: 0px;
+}
+#message textarea {
+  padding: 20px; /* отступы внутри поля */
+  border-radius: 10px;
+  height: 155px;
+  width: 353px;
+  border: 0px;
+  text-align: left; /* текст по левому краю */
+  vertical-align: top; /* текст начнется сверху */
+}
+#NameInput input:focus, #email input:focus, #message textarea:focus{
+  outline: none;
+  border: 2px, solid, gray;
+}
+
+#email{
+  position: relative;
+  top: -130px;
+  height: 70px;
+  width: 353px;
+}
+#message {
+  position: absolute;
+  top: 280px;
+  left: 104px;
+  height: 180px;
+  width: 353px;
+}
+#Registration button{
+  position: absolute;
+  top: 500px;
+  left: 104px;
+  width: 200px;
+  height: 65px;
+  border-radius: 10px;
+  background-color: #fddb3a;
+  border: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#Registration button:hover {
+  background-color: #ffcc00;
+  transform: scale(1.05); 
+}
+#ContactBody{
+  width: 460px;
+  height: 200px;
+  position: relative;
+  top: -500px;
+  left: 300px;
+}
+#HeadlineContactBody{
+  color: #231f20;
+  position: relative;
+  top: 25px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 44px;  
+}
+#MiniHeadline{
+  display: flex;
+  align-items: center;
+  color: #3EC5FA;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 20px;  
+}
+#MiniHeadline img{
+  position: relative;
+}
+#TextContactBody {
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 20px;  
+}
+.headLineBody{
+  color: #3ec5fa;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 24px;
+}
+.TextUnderHeadlineBody{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 16px;
+}
+#Phone{
+  position: absolute;
+  top: 450px;
+  left: 300px;
+  width: 390px;
+  height: 90px;
+}
+#Phone p, #MailBody p, #LocationBody p{
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+#Phone u, #MailBody u, #LocationBody u{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+#Phone img, #MailBody img, #LocationBody img{
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+#MailBody {
+  position: absolute;
+  top: 560px;
+  left: 300px;
+  width: 390px;
+  height: 90px;
+}
+#LocationBody {
+  position: absolute;
+  top: 670px;
+  left: 300px;
+  width: 390px;
+  height: 90px;
 }
 footer {
     position: relative; 
@@ -236,7 +318,7 @@ footer {
     position: absolute;
     top: 250px;
     left: 210px;
-    width: 170px;
+    width: 180px;
     height: 40px;
     padding-left: 15px;
 }
@@ -250,8 +332,6 @@ footer {
 #nav a{
     color: black;
 }
-
-
 .HeadlineNav{
 
     color: #3EC5FA;
