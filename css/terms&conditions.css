@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+  height: 1400px;
+}
+#header {
+    width: 100%;
+    height: 76px;
+    background-color: #3EC5FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    overflow: hidden;
+  }
+  
+  #header-text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  #header-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+  }
+  #welcome {
+    width: 100%;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+  } 
+  #welcome img {
+    position: absolute;
+    bottom: 0;
+  }
+  #CloudRight {
+    left: 0;
+    width: 40%;
+    max-width: 400px;
+  }
+  #CloudLeft {
+    right: 0;
+    width: 40%;
+    max-width: 400px; 
+  }
+  #welcome-navbar {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px; 
+    box-sizing: border-box;
+  }
+  
+  #welcome-navbar-logo {
+    width: 200px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #logohead {
+    position: relative !important;
+  }
+  
+  #welcome-navbar-logo h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  }
+  
+  #welcome-navbar-links {
+    height: 25px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #welcome-navbar-links a {
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+  }
+  
+  #welcome-navbar-request {
+    width: 283px;
+    height: 74px;
+    background-color: #3EC5FA;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.headline {
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 106px;
+}
+#TermsConditions{
+  position: absolute;
+  top: 300px;
+  left: 420px;
+}
+#PrivacyPolicy{
+  position: absolute;
+  top: 300px;
+  left: 560px;
+}
+#Coockies{
+  position: absolute;
+  top: 300px;
+  left: 680px;
+}
+#arrow{
+  position: absolute;
+  top: 650px;
+  left: 920px;
+}
+#underHeadline{
+    position: absolute;
+    top: 500px;
+    left: 480px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 40px;
+}
+#Bodyy{
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  height: 1380px;
+  width: 1900px;
+}
+.HeadlineBody{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 40px;
+}
+.TextBody{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+#firstParagraph{
+  height: 1460px;
+  width: 900px;
+}
+footer {
+    position: relative; 
+    width: 1900px;
+    height: 427px;
+
+}
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    width: 180px;
+    height: 60px;
+}
+#logo u {
+    position: relative;
+    top: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 10px;
+}
+#UnderLogo{
+    position: absolute;
+    top: 170px;
+    left: 225px;
+    width: 287px;
+    height: 54px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#SocialMedia {
+    position: absolute;
+    top: 250px;
+    left: 210px;
+    width: 180px;
+    height: 40px;
+    padding-left: 15px;
+}
+#nav {
+    position: absolute;
+    top: 120px;
+    left: 750px;
+    width: 105px;
+    height: 160px;
+}
+#nav a{
+    color: black;
+}
+.HeadlineNav{
+
+    color: #3EC5FA;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+#QuickLinks {
+    position: absolute;
+    top: 120px;
+    left: 1050px;
+    width: 130px;
+    height: 160px;
+}
+#QuickLinks a {
+    color: black;
+}
+#Contact {
+    position: absolute;
+    top: 120px;
+    left: 1350px;
+}
+.TextFooter{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+#ContactInfo {
+    position: absolute;
+    top: 175px;
+    left: 1350px;
+}
+#ContactInfo a {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    width: 230px;
+    color: black;
+}
+#adress {
+    position: absolute;
+    top: 270px;
+    left: 1398px;
+    color: black;
+}
+#forAdress {
+    position: absolute;
+    top: 270px;
+    left: 1350px;
+}
+#copyright {
+    position: relative;
+    top: 365px;
+    height: 63px;
+    background-color: #3EC5FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copyright p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+}
