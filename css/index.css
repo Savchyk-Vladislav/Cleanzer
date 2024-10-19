@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #header {
-  
+  width: 100%;
+  height: 76px;
+  background-color: #3EC5FA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+#header-text {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+#header-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+}
+
+/* Адаптив хедера под телефоны */
+@media (max-width: 768px) {
+  #header {
+    height: 60px;
+    padding: 0 10px;
+  }
+
+  #header-text {
+    font-size: 14px;
+    top: 0;
+    left: 0;
+  }
+
+  #header-icons {
+    width: 100px;
+  }
+
+  #header-icons img {
+    width: 20px;
+    height: 20px;
+  }
 }
