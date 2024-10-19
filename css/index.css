@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  text-decoration: none;
 }
 
 #header {
@@ -15,6 +15,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
+  overflow: hidden;
 }
 
 #header-text {
@@ -193,4 +194,46 @@
     font-size: 18px;
     border-radius: 10px;
   }
+}
+
+#prof-clean-serv {
+  position: relative;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 22px;
+  color: #3EC5FA;
+  top: 50px;
+  text-align: center;
+}
+
+#we-are-prem {
+  position: relative;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  text-align: center;
+  color: #3EC5FA;
+  top: 100px;
+  font-size: 22px;
+}
+#at-clean-crystal{
+  position: relative;
+  left: 550px;
+  top: 150px;
+  width: 800px;
+  height: 80px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+}
+#welcome-buttons {
+  position: relative;
+  top: 250px;
+  left: 650px;
+  width: 612px;
+  height: 78px;
+  background-color: black;
 }
